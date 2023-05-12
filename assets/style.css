@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 17px;
+    color: #666;
+}
+
+            /* BARRA SUPERIOR */
+
+.top_bar {
+    background-color: #fbb713;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    color: #fff;
+    z-index: 4;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.text_top_bar {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+           /* BARRA SUPERIOR */
+           /* LOGO IMG*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container02 {
+    height: 276px;
+    width: auto;
+    border-bottom: solid 1px #ccc;
+}
+
+.logo a {
+    margin: 0;
+    padding: 0 50px 50px 50px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+           /* LOGO IMG*/
+
+.mainmenu {
+    margin: 26px 0px !important;
+    width: auto;
+}
+
+.mainmenu>ul {
+    width: auto;
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.mainmenu>ul>li {
+    padding: 15px;
+    float: left;
+    font-size: 15px;
+    width: auto;
+    border-left: solid 0 #ccc;
+    text-align: left;
+    position: relative;
+} 
+
+.mainmenu>ul>li>a {
+    padding: 15px 10px;
+    margin: 0 3px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.mainmenu>ul>li>a:hover {
+    color: #fbb713;
+}
+
+/* CAROUSEL CONFIGS */
+
+.carousel-caption {
+    position: absolute;
+}
+
+.carousel-caption .d-none .d-md-block {
+    background-color: #ccc;
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+
+/* CAROUSEL CONFIGS */
+/* SECTION CONFIGS */
+
+section{
+    margin-bottom: 70px;
+}
+
+/* SECTION CONFIGS */
+/* MÓVEIS PLANEJADOS LIST */
+
+.col-md-10 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #fbb713;
+    width: auto;
+}
+
+.col-md-4 {
+    margin-top: 50px;
+}
+
+.col-md-4 img {
+    padding-bottom: 20px;
+}
+
+.col-md-4 .ongroup01 {
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* MÓVEIS PLANEJADOS LIST */
+/* DARK SECTION */
+
+.darkSection {
+    background-color: #222;
+    color: #ccc;
+    margin-top: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: auto;
+}
+
+.darkSection .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.frase {
+    text-align: center;
+}
+
+.frase p {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.frase b { 
+	padding:0em 0.3em; 
+	color:#fbb713; 
+	text-transform:uppercase;
+	font-weight:bold; 
+    font-size: 40px;
+}
+
+/* body .darkSection a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+} */
+
+/* body .darkSection a.btn-primary {
+    color: #222;
+    margin-top: 25px;
+    background-color: #fbb713;
+    border-color: #fbb713;
+    font-weight: bold;
+}
+
+body .darkSection a.btn-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+} */
+
+/* DARK SECTION */
